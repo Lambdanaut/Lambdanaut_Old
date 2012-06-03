@@ -1,0 +1,142 @@
+/* The Lambdanaut-specific styles that are applied just about site-wide. */
+
+/* Font: Press Start 2P */
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+/* Font: Telex */
+@import url(http://fonts.googleapis.com/css?family=Telex);
+
+/* Text highlight color */
+::-moz-selection {
+       background-color: #99CCFF;
+       color: #000;
+}
+::selection {
+       background-color: #99CCFF;
+       color: #000;
+}
+
+body {
+	font-family: 'Telex', sans-serif;
+	background-image: url('/img/sidebar.png');
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 0.9em;
+	padding-bottom: 1px; 
+	padding-left: 15px;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	border-bottom: solid 3px black;
+}
+
+h1:before {
+	margin-right: 1em;
+	content: url(/img/headernaut.png);
+}
+
+h1:after {
+	margin-left: 1em;
+	content: url(/img/AnotherWorldApart.png);
+}
+
+h2 {
+	font-size: 1.2em;
+	border-bottom: dashed 3px #99CCFF;
+	color: #99CCFF;
+	margin: 1.5em 0em;
+	
+}
+
+h3 {
+	display: block;
+	text-align: center;
+	font-size: 1em;
+	color: black;
+	margin-bottom: 10px;
+	border-bottom: dotted 1px black;
+	
+}
+
+p {
+	text-indent: 4em;
+}
+
+a {
+	color: #666699;
+	
+	text-decoration: none;
+} 
+a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	max-width: 800px;
+	margin: 10px 290px;
+}
+
+#navigation {
+	position: fixed;
+	top: 0; bottom: 0;
+	padding-top: 25px;
+	width: 200px;
+	border-right: solid 3px #BBBBCC;
+	background-color: #DDDDFF;
+	text-align: center;
+	clear: both;
+}
+
+#navigation li {
+	margin-top: 0.5em;
+	font-size: 1.2em;
+}
+
+#footer_image {
+	position: relative;
+	margin-top:50px;
+	margin-bottom: 0;
+	float:right;
+}
+
+.project_image {
+	display: block;
+	max-width: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Box effects for the skills page. */
+.skill {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 45px;
+	min-width: 45px;
+	text-align: center;
+}
+.skill ul {
+	display: block;
+	width: 20px;
+	border: solid 3px black;
+	list-style-type: none;
+	margin: 2px auto 0 auto;
+}
+.skill ul li {
+	width: 16px; 
+	height: 17px;
+	margin: 0 auto 2px auto;
+	background-color: black;
+	border: solid 1px black;
+}
+.skill ul li:first-child{
+	margin-top: 2px;
+}
+.skill ul .hidden {
+	visibility: hidden;
+}

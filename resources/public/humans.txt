@@ -1,0 +1,10 @@
+﻿/* AUTHOR */
+	Joshua Thomas AKA Lambdanaut 
+	Google +: https://plus.google.com/u/0/116585393952181375154/posts
+	From: Jacksonville, FL
+	Resides In: Wilmington, NC (as of 2012)
+
+/* SITE */
+	Language: English
+	Doctype: HTML5
+	Tools: VIM, Clojure, Noir Web Framework

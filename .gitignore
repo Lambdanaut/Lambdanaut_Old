@@ -3,3 +3,6 @@ pom.xml
 /lib/
 /classes/
 .lein-deps-sum
+*.swp
+*.swi
+*.swo
