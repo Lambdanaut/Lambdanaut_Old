@@ -9,7 +9,14 @@
 (defpage "/" []
 	(common/layout "Home"
 		[:h1 "Lambdanaut.com"]
-		[:p "My personal website for Internet shenanigans. "]
+		[:p "Arts, Farts, and Software Parts. "]
+	)
+)
+
+(defpage "/meta" []
+	(common/layout "Meta"
+		[:h1 "Lambdanaut.com"]
+		[:p "Lambdanaut.com is my personal website for Internet shenanigans. I intend to post all of my projects and happenings up here, as well as using it as a casual e-resume. The website is written in " (link-to "http://clojure.com" "Clojure") " using the " (link-to "http://webnoir.org" "Noir Web Framework") ". " ]
 	)
 )
 
@@ -31,6 +38,9 @@
 		[:p
 			"I also tinker with electronics when I'm bored. Microcontrollers kick ass and I'm a big fan of the " (link-to "http://www.arduino.cc/" "Arduino") " project. "
 		]
+		[:p
+			"I'm currently working as a software developer at " (link-to "http://gigbureau.com" "The Gig Bureau") " in Wilmington, NC. It's a great company in a beautiful location and the culture there is untouched pristine startup. It's real nice. "
+		]
 		[:p 
 			"But that's enough paragraphs starting with the letter \""[:b "I"]"\" for today, so I'll throw some mad street cred out to my homies. My friends are the most awesome people in existence, and some are even cooler than me!" (link-to "#f4" [:sup "4"]) " " (link-to "http://ariaofthedolls.tumblr.com/" "Adriana") ", " (link-to "http://drawrawr.com/!catherine!" "Catherine") ", and Nicolas have been my best friends for a long time" (link-to"#f5" [:sup "5"]) ", and I've been dating Cat for over two years now &#9829;! Good people those chaps. " 
 		]
@@ -43,6 +53,9 @@
 			[:li (link-to "http://drawrawr.com/lambdanaut" "Drawrawr") ]
 			[:li (link-to "https://github.com/Lambdanaut" "Github") ]
 			[:li (link-to "http://www.reddit.com/user/TheMrBlueSky/" "Reddit") ]
+		]
+		[:p 
+			"For more information about this website, " (link-to "/meta" "click here")
 		]
 
 		[:br][:hr]
