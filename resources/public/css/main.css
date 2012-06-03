@@ -41,7 +41,7 @@ h1:before {
 
 h1:after {
 	margin-left: 1em;
-	content: url(/img/AnotherWorldApart.png);
+	content: url(/img/catlove.png);
 }
 
 h2 {
@@ -106,6 +106,13 @@ a:hover {
 .project_image {
 	display: block;
 	max-width: 100%;
+}
+
+.gallery_image {
+	border: solid 10px #DDDDFF;
+	float: left;
+	box-shadow: 2px 5px 3px black;
+	margin: 10px;
 }
 
 .clear {
