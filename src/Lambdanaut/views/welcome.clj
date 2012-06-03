@@ -15,7 +15,7 @@
 
 (defpage "/bio" []
 	(common/layout "Bio"
-		[:h1 "Salutations, pal! "]
+		[:h1 "Salutations, pal!"]
 		[:p 
 			"I'm " [:b "Josh"] ". " 
 		]
