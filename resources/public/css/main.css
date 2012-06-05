@@ -75,10 +75,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-#content {
-	max-width: 950px;
-	margin: 10px 150px 10px 250px;
-}
 
 #navigation {
 	position: fixed;
@@ -94,6 +90,11 @@ a:hover {
 #navigation li {
 	margin-top: 0.5em;
 	font-size: 1.2em;
+}
+
+#content {
+	max-width: 950px;
+	margin: 10px 150px 10px 250px;
 }
 
 #footer_image {
