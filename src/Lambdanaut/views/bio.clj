@@ -34,12 +34,6 @@
 			"My favorite thing to do is program in " (link-to "http://www.haskell.org/haskellwiki/Haskell" "Functional Languages") ", but I also work in Python, PHP, Javascript, C++, and hell, whateva. I'm better at learning new things than specializing, so if you have a project that you'd like to work with me on, I can quickly adapt to the environment. Like a chameleon. " [:i "Hiss"] ". "
 		]
 		[:br]
-		"You can find me on: "
-		[:ul
-			[:li (link-to "http://drawrawr.com/lambdanaut" "Drawrawr") ]
-			[:li (link-to "https://github.com/Lambdanaut" "Github") ]
-			[:li (link-to "http://www.reddit.com/user/TheMrBlueSky/" "Reddit") ]
-		]
 		[:p 
 			"For more information about this website, " (link-to "/meta" "click here")
 		]

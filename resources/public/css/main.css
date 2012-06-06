@@ -75,6 +75,13 @@ a:hover {
 	text-decoration: underline;
 }
 
+dt:after {
+	content: ": ";
+}
+dd {
+	text-indent: 3em;
+	margin-bottom: 1em;
+}
 
 #navigation {
 	position: fixed;
@@ -86,7 +93,6 @@ a:hover {
 	text-align: center;
 	clear: both;
 }
-
 #navigation li {
 	margin-top: 0.5em;
 	font-size: 1.2em;
