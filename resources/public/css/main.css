@@ -92,6 +92,7 @@ dd {
 	background-color: #DDDDFF;
 	text-align: center;
 	clear: both;
+	box-shadow: 2px 0px 5px black;
 }
 #navigation li {
 	margin-top: 0.5em;
