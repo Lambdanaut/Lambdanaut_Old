@@ -14,6 +14,11 @@
 			"A social community for artists that has been a WIP since late 2010. The prototype version is up on " (link-to "http://drawrawr.com" "Drawrawr.com") " right now, but the completed site is scheduled for release sometime later this year. It's a huge site " [:i "packed"] " with features and it's going to be a pretty big deal. "
 		]
 		[:img.project_image {:src "/img/projects/drscreenshot.png" :alt "Screenshot of Drawrawr.com" :title "A screenshot of Drawrawr One, the prototype version of Drawrawr only open to a few hundred testers. "} ]
+		[:h2 "Catguice.com"]
+		[:p
+			(link-to "http://catguice.com" "Catguice.com") " is a storefront website written in Python for the sale of awesome custom apparel. I created it for Catherine Kern for her design company. The source code is up on " (link-to "http://github.com/Lambdanaut/Catguice" "Github.com")
+		]
+		[:img.project_image {:src "/img/projects/catguice.png" :alt "Screenshot of Catguice.com" :title "A screenshot of Catguice," } ]
 
 		[:h2 "Phibot"]
 		[:p
