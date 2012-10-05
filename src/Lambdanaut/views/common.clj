@@ -16,7 +16,7 @@
 			(include-css "/css/main.css")]
 			[:body
 				[:div#navigation 	
-					(link-to "/" (image "/img/Lambdanautlogo.png" "Lambdanaut Logo") )
+					(link-to "/" [:img {:src "/img/Lambdanautlogo.png" :alt "Lambdanaut Logo"} ] )
 					[:ul
 						[:li (link-to "/bio" "Bio")]
 						[:li (link-to "/skills" "Skills")]
