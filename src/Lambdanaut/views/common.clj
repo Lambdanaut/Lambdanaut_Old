@@ -25,8 +25,6 @@
 					]
 				]
 				[:div#content content]
-				[:footer
-				]
 			]
 	)
 )
