@@ -10,7 +10,7 @@
 	(common/layout "Contact"
 		[:h1 "Drop me a line"]
 		[:dl {:style "float: left; margin-right: 170px;"}
-			[:dt "Email"] [:dd (link-to "mailto:personettelabs@gmail.com" "personettelabs@gmail.com")]
+			[:dt "Email"] [:dd (link-to "mailto:josh@gigsalad.com" "josh@gigsalad.com")]
 			[:dt "Drawrawr"] [:dd (link-to "http://drawrawr.com/lambdanaut" "http://drawrawr.com/lambdanaut")]
 			[:dt "Facebook"] [:dd (link-to "http://facebook.com/lambdanaut" "http://facebook.com/lambdanaut")]
 		]
