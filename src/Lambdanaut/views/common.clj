@@ -18,9 +18,7 @@
 				[:div#navigation 	
 					(link-to "/" [:img {:src "/img/Lambdanautlogo.png" :alt "Lambdanaut Logo"} ] )
 					[:ul
-						[:li (link-to "/bio" "Bio")]
 						[:li (link-to "/skills" "Skills")]
-						[:li (link-to "/creations" "Creations")]
 						[:li (link-to "/contact" "Contact")]
 					]
 				]
